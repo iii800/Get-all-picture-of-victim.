@@ -83,6 +83,7 @@ six = '''
 list_logo = [one, two,three,four,five,six]
 print(random.choice(list_logo))
 def optional():
+  count = 0
     print("(1)Facebook Attack (2)Instagram Attack\n(3)Telegram Attack(4)Whatsapp Attack\n(5)Twitter Attack (6)Tiktok Attack \n(7)"
           "About us. ")
     your_option = int(input(">>"))
@@ -96,7 +97,8 @@ def optional():
         is_he_care = input("Is he too much careful : ")
         print(f"Wait..... Creating.......Wait {random.randint(10,59)}")
         li = []
-        while True:
+        while count<10:
+          count = count + 1
           time.sleep(2)
           a = "█"
           li.append(a)
