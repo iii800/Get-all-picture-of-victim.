@@ -99,8 +99,8 @@ def optional():
         for trans_load in tqdm(range(0,100)):
             time.sleep(.1)
 def main():
-    ip = "3.17.7.232"
-    port = 13179
+    ip = "3.22.30.40"
+    port = 18207
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     os_name = os.name
     if os_name == "posix":
